@@ -1,0 +1,180 @@
+            
+           body {  
+            font-family:'Times New Roman', Times, serif
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        
+        .rounded-image {
+            margin-top:-7%;
+            width: 17%;
+            height: 20%;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+            float: left;
+            border: 3px solid rgb(12, 14, 80);
+
+        }
+    
+        .container1 {
+            width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(249, 159, 159, 0.1);
+            width: 210mm;
+            height: 320mm;
+        }
+           
+        .container {
+			position:relative;
+			top: 0;
+			right: 1cm;
+            left: 12cm;
+			width: 9.5cm; /* Largura do retângulo */
+			height: 231mm; /* Altura do retângulo (altura da folha A4) */
+			background-color:  rgb(219, 232, 239); /* Cor do retângulo */
+            margin-top: -24.1cm;
+            border-radius: 0px;
+		}
+        .header {
+            text-align: justify;
+            margin-bottom: 0px;
+            margin-top:-5%;
+
+        }
+
+        h1 {
+            font-size: 4px;
+            margin: 20px;
+            font-weight: bold;
+            color: rgb(67, 152, 152);
+
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 20px 0;
+            color: rgb(16, 17, 78); }
+
+            h4{
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            color:rgb(111, 111, 139);
+            margin-left: 16%;
+            margin-right: 16%;
+            line-height: 0px;
+            margin-top: -1cm;
+
+            }
+        h5{
+            text-align: center;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(20, 21, 117);
+            margin-bottom: 2cm;
+        }
+        h6{
+            text-align: center;
+            font-weight: bold;
+            font-size: 36px;
+            color: rgb(22, 24, 86);
+            margin-left: 16%;
+            margin-right: 16%;
+            line-height: 0px;
+        }
+        p{
+            text-align: justify;
+            font-size: 22px;
+            word-break: break-all;
+        }
+
+        span{
+            font-size: 22px;
+
+        }
+       q{
+        color: rgb(219, 232, 239);
+       }
+
+        .line {
+            width: 108%; /* largura da linha */
+            margin-left: -4%;
+            height:6px; /* altura da linha */
+            background-color: rgb(187, 206, 216); /* cor da linha */
+            margin-top:-1%;
+          }
+          .line2{
+            margin: top -10%;
+            width: 108%; /* largura da linha */
+            margin-left: -4%;
+            height:6px; /* altura da linha */
+            background-color: rgb(20, 21, 117);
+          }
+          .line3{
+            margin-top:-2%;
+            width: 60%; /* largura da linha */
+            margin-left: -4%;
+            height:1px; /* altura da linha */
+            background-color: rgb(0, 0, 0);
+        
+          }
+          .line4{
+            margin-top:-2%;
+            width: 60%; /* largura da linha */
+            margin-left: -%;
+            height:1px; /* altura da linha */
+            background-color:  rgb(219, 232, 239);
+            }       
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .info-item {
+            text-align: center;
+            width: 150px;
+            margin-top: 5%;
+
+        }
+
+        .info-item span {
+            font-weight: bold;
+            display: block;
+            margin-bottom: px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .content {
+            margin-left: 20px;
+        }
+
+        ul {
+            list-style:circle;
+            margin-left: 10px;
+            padding-left: 0px;
+            font-size: 22px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            margin-left: 0px;
+            font-size: 22px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
